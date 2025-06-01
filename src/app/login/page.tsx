@@ -87,7 +87,7 @@ export default function LoginPage() {
                 Password
               </label>
               {!isSignUp && (
-                <a href="#" className="text-sm text-indigo-500 hover:underline">
+                <a href="#" className="text-sm text-indigo-600 hover:underline">
                   Forgot password?
                 </a>
               )}
