@@ -137,16 +137,16 @@ export default function DashboardPage() {
           <h3 className="text-lg font-medium text-gray-900 mb-1 break-words">{entry.title}</h3>
           <p className="text-sm text-gray-500 mb-2">
             {new Date(entry.date).toLocaleString('en-US', {
-              month: 'short',
+              month: 'long',
               day: '2-digit',
               year: 'numeric',
               hour: '2-digit',
               minute: '2-digit',
               hour12: true,
             })
-              .replace(',', '')
-              .replace(' ', ', ')
-              .replace(',', ' at')}
+              .replace(',', ',')
+              .replace(' ', ' ')
+              .replace(',', ' ,')}
           </p>
           <p className="text-gray-700 leading-relaxed break-words">{entry.content}</p>
         </div>
