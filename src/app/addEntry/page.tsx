@@ -100,12 +100,15 @@ export default function NewEntryPage() {
                 Cancel
               </Link>
 
-              <button
-                type="submit"
-                className="w-28 bg-gray-900 text-white py-2.5 rounded-md hover:bg-gray-800 transition-colors text-sm"
-              >
+                  
+                  <button
+                  type="submit"
+                  className="w-28 bg-gray-900 text-white py-2.5 rounded-md hover:bg-gray-800 transition-colors text-sm"
+                 >
                 Save Entry
               </button>
+                 
+              
             </div>
           </form>
         </div>

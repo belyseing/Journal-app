@@ -7,7 +7,7 @@ interface ReqWithAuth {
   };
 }
 
-// Initialize Admin SDK only once
+
 if (!getApps().length) {
   initializeApp({
     credential: cert({
