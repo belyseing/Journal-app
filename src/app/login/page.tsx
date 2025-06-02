@@ -94,7 +94,7 @@ export default function LoginPage() {
             </div>
             <input
               type="password"
-              className="w-full px-4 py-2 border rounded-md text-sm focus:outline-none focus:ring-2 focus:ring-indigo-500"
+              className="w-full px-4 py-2  text-black border rounded-md text-sm focus:outline-none focus:ring-2 focus:ring-indigo-500"
               value={password}
               onChange={(e) => setPassword(e.target.value)}
               required
